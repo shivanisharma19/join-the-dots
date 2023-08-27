@@ -9,16 +9,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(15px + 2vmin);
-  color: white;
 
   &>button {
     border-radius: 20px;
     font-size: 40px;
     padding: 10px;
+    background:none;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
 
     &:hover {
-      background-color: gold;
+      background-color:yellow;
+      color: black;
     }
  }
   
